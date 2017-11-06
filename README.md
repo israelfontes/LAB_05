@@ -5,6 +5,15 @@
 * israel_fontes@live.com
 * Matricula: 2016037140
 
+# Compilando:
+## Make:
+Para compilar use o make:
+> make
+
+## Documentação:
+Para gerar documentação use:
+> make doxy
+
 # Questão 1
 ## Descrição:
 Implementação de uma função template closest2mean que recebe como parâmetro um intervalo
@@ -29,15 +38,6 @@ container. Em outras palavras, o programa deve lê um valor N fornecido como ent
 de comando e imprime todos os valores primos de 1 a N.
 ### Executar:
 > ./bin/quest03/quest03
-
-# Compilando:
-## Make:
-Para compilar use o make:
-> make
-
-## Documentação:
-Para gerar documentação use:
-> make doxy
 
 # Questão 4
 ## Resposta:
