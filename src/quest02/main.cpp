@@ -1,3 +1,10 @@
+/**
+* @file     main.cpp
+* @brief    Cria um set de inteiros e chama print_elements a partir do set criado.
+* @author   Israel Medeiros Fontes
+* @since    04/11/2017
+* @date     06/11/2017
+*/
 #include <set>
 #include "print_elements.hpp"
 

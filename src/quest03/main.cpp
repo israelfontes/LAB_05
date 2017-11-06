@@ -1,4 +1,10 @@
-
+/**
+* @file     main.cpp
+* @brief    Lê um número inteiro e chama a função showprimos passando o número lido por parametro.
+* @author   Israel Medeiros Fontes
+* @since    04/11/2017
+* @date     06/11/2017
+*/
 #include <iostream>
 #include "showprimos.hpp"
 

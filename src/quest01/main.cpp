@@ -1,12 +1,16 @@
+/**
+* @file     main.cpp
+* @brief    Cria um vector e chama a função closestmean a partir desse vector.
+* @author   Israel Medeiros Fontes
+* @since    04/11/2017
+* @date     06/11/2017
+*/
 #include <iostream>
 #include <vector>
 #include <iterator>
-#include <algorithm>
-#include <numeric>
-
 #include "closest2mean.hpp"
-using namespace std;
 
+using namespace std;
 
 int main(void) {
 	

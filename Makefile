@@ -51,7 +51,7 @@ dir:
 clean:
 	$(RM) $(OBJ_DIR)/*
 	$(RM) $(BIN_DIR)/*
-
+	
 doxy:
 	mkdir -p doc/
 	doxygen Doxyfile
