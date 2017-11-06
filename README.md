@@ -10,12 +10,16 @@
 Implementação de uma função template closest2mean que recebe como parâmetro um intervalo
 especificado por dois iteradores da categoria InputIterator e retorna um iterador para o
 elemento nesse intervalo cujo valor é o mais próximo da média do intervalo.
+### Executar:
+> ./bin/quest01/quest01 
 
 # Questão 2
 ## Descrição:
 Implementação de uma função template print_elements que recebe como parâmetros um container
 qualquer seguido de um label e um separador a serem usados na impressão de todos os elementos
 do container.
+### Executar:
+> ./bin/quest02/quest02
 
 # Questão 3
 ## Descrição:
@@ -23,15 +27,17 @@ Implementação de um programa que, dado um container de inteiros, encontra
 o primeiro número primo do conjunto. Utilizando esta função, imprime todos os valores primos no
 container. Em outras palavras, o programa deve lê um valor N fornecido como entrada via linha
 de comando e imprime todos os valores primos de 1 a N.
+### Executar:
+> ./bin/quest03/quest03
 
 # Compilando:
 ## Make:
 Para compilar use o make:
-$ make
+> make
 
 ## Documentação:
 Para gerar documentação use:
-$ make doxy
+> make doxy
 
 # Questão 4
 ## Resposta:
