@@ -24,4 +24,19 @@ o primeiro número primo do conjunto. Utilizando esta função, imprime todos os
 container. Em outras palavras, o programa deve lê um valor N fornecido como entrada via linha
 de comando e imprime todos os valores primos de 1 a N.
 
+# Compilando:
+## Make:
+Para compilar use o make:
+$ make
 
+## Documentação:
+Para gerar documentação use:
+$ make doxy
+
+# Questão 4
+## Resposta:
+O código dado cria dois vectors vazios, depois preenche um dos vectors com 9 elementos de forma 
+crescente do 1 ao 9. Depois é utilizado a função transform() da STL para para percorrer todos os
+elementos do vector preenchido, aplicando a função square() que recebe o valor inteiro e retorna o
+quadrado dele, passando esse resultado para o outro vector antes vazio. Ao final é impresso o vector 
+que recebeu a transformação.
