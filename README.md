@@ -37,7 +37,7 @@ o primeiro número primo do conjunto. Utilizando esta função, imprime todos os
 container. Em outras palavras, o programa deve lê um valor N fornecido como entrada via linha
 de comando e imprime todos os valores primos de 1 a N.
 ### Executar:
-> ./bin/quest03/quest03
+> ./bin/quest03/quest03 <entrada>
 
 # Questão 4
 ## Resposta:
