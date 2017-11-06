@@ -1,16 +1,16 @@
-#include <algorithm>
+#ifndef _CLOSEST2_HPP_
+#define _CLOSEST2_HPP_
+
 #include <iostream>
-#include "closest2mean.hpp"
+#include <vector>
+#include <iterator>
+#include <algorithm>
+#include <numeric>
 
 template<typename InputIterator>
 InputIterator closest2mean(InputIterator first, InputIterator last){
 	int distance = std::distance(first, last);
-	double media;
-
-	for(InputIterator _it = first; _it < last; ++_it)
-		media += *_it;
-
-	media = media/distance;
+	double media = accumulate(first, last,0)/distance;
 
 	InputIterator it = find(first, last, (int)media);
 	if(it != last)
@@ -32,3 +32,5 @@ InputIterator closest2mean(InputIterator first, InputIterator last){
 	}
 	return it;
 }
+
+#endif
